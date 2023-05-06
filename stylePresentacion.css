@@ -47,6 +47,8 @@ body {
   font-size: 50px;
 }
 .imagen {
+  margin: 0 auto;
+
   width: 35%;
 }
 
@@ -58,7 +60,6 @@ body {
     width: 90%;
     margin: 0 auto;
     font-size: 20px;
-
   }
   .imagen {
     width: 90%;
@@ -66,10 +67,10 @@ body {
   }
 }
 @media screen and (max-width: 500px) {
-    .contenedorTexto {
-        font-size: 15px;
-      }
-      .implementacion{
-        font-size: 20px;
-      }
+  .contenedorTexto {
+    font-size: 15px;
+  }
+  .implementacion {
+    font-size: 20px;
+  }
 }
