@@ -24,11 +24,11 @@ body {
   padding: 30px;
   background-color: white;
   font-size: 25px;
+  text-align: center;
 }
 .contenedorPadre {
   display: flex;
   justify-content: stretch;
-  
 }
 .implementacion {
   text-decoration: none;
@@ -46,6 +46,30 @@ body {
   color: red;
   font-size: 50px;
 }
-.imagen{
-    width: 35%;
+.imagen {
+  width: 35%;
+}
+
+@media screen and (max-width: 1200px) {
+  .contenedorPadre {
+    display: grid;
+  }
+  .contenedorTexto {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 20px;
+
+  }
+  .imagen {
+    width: 90%;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+    .contenedorTexto {
+        font-size: 15px;
+      }
+      .implementacion{
+        font-size: 20px;
+      }
 }
