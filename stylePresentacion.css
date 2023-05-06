@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(227, 227, 227);
+  position: absolute;
+}
+
+.title {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.contenedorTexto {
+  width: 60%;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 5px solid black;
+  border-radius: 40px;
+  padding: 30px;
+  background-color: white;
+  font-size: 25px;
+}
+.contenedorPadre {
+  display: flex;
+  justify-content: stretch;
+  
+}
+.implementacion {
+  text-decoration: none;
+  font-size: 30px;
+  color: red;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.bx {
+  color: red;
+  font-size: 50px;
+}
+.imagen{
+    width: 35%;
+}
